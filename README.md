@@ -11,9 +11,7 @@ want Rust support without cloning the git repo and manually copying / symlinking
 all the requisite files.
 
 The syntax is copied from the `incoming` branch, so it may be slightly different
-if you're using a stable release.
-
-A daily cron job that updates this plugin.
+if you're using a stable release. A daily cron job updates this plugin.
 
 ## Installation
 
