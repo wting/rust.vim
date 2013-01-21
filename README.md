@@ -26,8 +26,7 @@ Pathogen may work but it's untested.
 
 ## Updates
 
-I have a cron job that notifies me if there's an update, so this plugin
-shouldn't fall behind the `incoming` branch too much.
+I have a daily cron job that auto updates this plugin.
 
 [mr]: https://github.com/mozilla/rust
 [r]: https://en.wikipedia.org/wiki/Rust_language
