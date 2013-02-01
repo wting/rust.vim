@@ -3,19 +3,11 @@
 ## Description
 
 This is a vim plugin provides [Rust][r] file detection and syntax highlighting.
-It's used for installation with [vundle][v]. [Pathogen][p] is untested but may
-be supported.
-
-It copies the vim support code from the [mozilla/rust][mr] repo, `incoming
-branch`.  As a result, the syntax may be *slightly* different if you're using
-a stable release.
+It copies the vim support code from the [mozilla/rust incoming branch][mr].  As
+a result, the syntax may be *slightly* different if you're using a stable
+release.
 
 A daily cron job updates this plugin.
-
-## Note
-
-Vundle will not automatically detect Rust files properly if `filetype on` is
-executed before Vundle. Please check the [quickstart][vqs] for more details.
 
 ## Installation
 
@@ -26,6 +18,12 @@ Use [vundle][v] and add this line to your `~/.vimrc`:
 Afterwards run the vim command:
 
     :BundleInstall
+
+*Note:* Vundle will not automatically detect Rust files properly if `filetype
+on` is executed before Vundle. Please check the [quickstart][vqs] for more
+details.
+
+[Pathogen][p] is untested but may be supported.
 
 [mr]: https://github.com/mozilla/rust
 [r]: https://en.wikipedia.org/wiki/Rust_language
