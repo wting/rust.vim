@@ -3,11 +3,10 @@
 ## Description
 
 This is a vim plugin provides [Rust][r] file detection and syntax highlighting.
-It copies the vim support code from the [mozilla/rust incoming branch][mr].  As
-a result, the syntax may be *slightly* different if you're using a stable
-release.
 
-A daily cron job updates this plugin.
+It is synchronized daily to the vim support code in [mozilla/rust][mr]'s
+incoming branch via cronjob. Consequently, the syntax may be *slightly*
+different if you're using a stable release.
 
 ## Installation
 
@@ -23,10 +22,7 @@ Afterwards run the vim command:
 on` is executed before Vundle. Please check the [quickstart][vqs] for more
 details.
 
-[Pathogen][p] is untested but may be supported.
-
 [mr]: https://github.com/mozilla/rust
 [r]: https://en.wikipedia.org/wiki/Rust_language
 [v]: https://github.com/gmarik/vundle
 [vqs]: https://github.com/gmarik/vundle#quick-start
-[p]: https://github.com/tpope/vim-pathogen
