@@ -10,19 +10,22 @@ different if you're using a stable release.
 
 ## Installation
 
-Use [vundle][v] and add this line to your `~/.vimrc`:
+### Using [Vundle][v]
 
-    Bundle 'wting/rust.vim'
-
-Afterwards run the vim command:
-
-    :BundleInstall
+1. Add `Bundle 'wting/rust.vim'` to `~/.vimrc`
+2. `vim +BundleInstall +qall`
 
 *Note:* Vundle will not automatically detect Rust files properly if `filetype
 on` is executed before Vundle. Please check the [quickstart][vqs] for more
 details.
 
+### Using [Pathogen][p]
+
+1. `cd ~/.vim/bundle`
+2. `git clone git://github.com/wting/rust.vim.git`
+
 [mr]: https://github.com/mozilla/rust
+[p]: https://github.com/tpope/vim-pathogen
 [r]: https://en.wikipedia.org/wiki/Rust_language
 [v]: https://github.com/gmarik/vundle
 [vqs]: https://github.com/gmarik/vundle#quick-start
