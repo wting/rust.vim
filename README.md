@@ -5,8 +5,7 @@
 This is a vim plugin provides [Rust][r] file detection and syntax highlighting.
 
 It is synchronized daily to the vim support code in [mozilla/rust][mr]'s
-incoming branch via cronjob. Consequently, the syntax may be *slightly*
-different if you're using a stable release.
+master branch via cronjob.
 
 ## Installation
 
