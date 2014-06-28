@@ -21,7 +21,7 @@ details.
 ### Using [Pathogen][p]
 
 1. `cd ~/.vim/bundle`
-2. `git clone git://github.com/wting/rust.vim.git`
+2. `git clone https://github.com/wting/rust.vim.git`
 
 [mr]: https://github.com/mozilla/rust
 [p]: https://github.com/tpope/vim-pathogen
