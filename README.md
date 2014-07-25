@@ -11,8 +11,8 @@ master branch via cronjob.
 
 ### Using [Vundle][v]
 
-1. Add `Bundle 'wting/rust.vim'` to `~/.vimrc`
-2. `vim +BundleInstall +qall`
+1. Add `Plugin 'wting/rust.vim'` to `~/.vimrc`
+2. `vim +PluginInstall +qall`
 
 *Note:* Vundle will not automatically detect Rust files properly if `filetype
 on` is executed before Vundle. Please check the [quickstart][vqs] for more
