@@ -4,7 +4,7 @@
 
 This is a vim plugin provides [Rust][r] file detection and syntax highlighting.
 
-It is synchronized daily to the vim support code in [mozilla/rust][mr]'s
+It is synchronized daily to the vim support code in [rust-lang/rust][rr]'s
 master branch via cronjob.
 
 ## Installation
@@ -23,7 +23,7 @@ details.
 1. `cd ~/.vim/bundle`
 2. `git clone https://github.com/wting/rust.vim.git`
 
-[mr]: https://github.com/mozilla/rust
+[rr]: https://github.com/mozilla/rust
 [p]: https://github.com/tpope/vim-pathogen
 [r]: https://en.wikipedia.org/wiki/Rust_language
 [v]: https://github.com/gmarik/vundle
