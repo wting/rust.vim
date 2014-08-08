@@ -23,7 +23,7 @@ details.
 1. `cd ~/.vim/bundle`
 2. `git clone https://github.com/wting/rust.vim.git`
 
-[rr]: https://github.com/mozilla/rust
+[rr]: https://github.com/rust-lang/rust
 [p]: https://github.com/tpope/vim-pathogen
 [r]: https://en.wikipedia.org/wiki/Rust_language
 [v]: https://github.com/gmarik/vundle
