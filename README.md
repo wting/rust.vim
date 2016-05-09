@@ -1,5 +1,14 @@
 # rust.vim
 
+## DEPRECATED
+
+This work has been replaced by an official plugin: [rust-lang/rust.vim](https://github.com/rust-lang/rust.vim)
+
+Historically this existed as a useful plugin for working with Rust and keeping
+up with nightly build changes pre-1.0. Now that the language as relatively
+stabilized since v1.0 there's less need for this plugin, especially considering
+there's an official version now.
+
 ## Description
 
 This is a vim plugin provides [Rust][r] file detection and syntax highlighting.
